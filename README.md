@@ -12,7 +12,7 @@ Useful for experimenting or demos.
 I needed working examples of various Jenkinsfiles which I could then modify in my local text editor and automatically convert them into Jenkins jobs.
 Unfortunately the best way to test a Jenkinsfile is to run it in a Jenkins instance.  
 This project takes away the manual process of copying and pasting a Jenkinsfile into a Jenkins job configuration.
-By design job has to be run manually.
+By design job has to be run manually
 
 ### How it works
 
