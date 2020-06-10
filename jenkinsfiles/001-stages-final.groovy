@@ -6,11 +6,6 @@ pipeline {
   }
   agent any
   stages {
-    #stage('Cloning Git') {
-      #steps {
-        #git url: 'https://github.com/Arthi1904/jenkins-examples.git', branch: 'master'
-      #}
-    #}
     stage('Building image') {
       steps{
         script {
