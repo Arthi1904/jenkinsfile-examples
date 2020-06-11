@@ -11,8 +11,8 @@ pipeline {
         script {
           echo ":$BUILD_NUMBER"
           echo ":$GIT_COMMIT"
-          echo "${GIT_COMMIT[33..39]}"
-          dockerImage = docker.build registry + ":$BUILD_NUMBER"
+          echo ":${GIT_COMMIT[33..39]}"
+          dockerImage = docker.build registry + ":${GIT_COMMIT[33..39]}"
         }
       }
     }
