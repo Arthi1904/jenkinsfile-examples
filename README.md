@@ -2,7 +2,7 @@
 # Jenkinsfiles Examples
 
 Collection of executable Jenkinsfiles loaded automatically into a dockerized Jenkins.
-Useful for experimenting or demo
+Useful for experimenting or demo.
 
 ![](./.images/001.png)
 
